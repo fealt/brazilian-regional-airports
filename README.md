@@ -6,9 +6,7 @@
 
 <br>
 
-🚧 🏗 🤯 👨🏻‍💻
-
-# 🔜 🛫 *Ladies and gentlemen, fasten your seat belts*
+# 🛫 *Ladies and gentlemen, fasten your seat belts*
 
 <br>
 
@@ -17,5 +15,13 @@
 <br>
 
 <br>
+
+<br>
+
+capstone project completed on 18th december 2021
+
+<br>
+
+👨🏻‍💻 currently working on the documentation, please come back soon
 
 <br>
