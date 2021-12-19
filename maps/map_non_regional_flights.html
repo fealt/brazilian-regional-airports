@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1b07467f690d4e98add8df032b9a490a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_1b07467f690d4e98add8df032b9a490a" ></div>
+        
+</body>
+<script>    
+    
+            var map_1b07467f690d4e98add8df032b9a490a = L.map(
+                "map_1b07467f690d4e98add8df032b9a490a",
+                {
+                    center: [-16.0, -53.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6abcc47360974890b6a9f693b5a28db1 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 4, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_1b07467f690d4e98add8df032b9a490a);
+        
+    
+            var feature_group_e61afbab54b84d19b3d0b1b61f429912 = L.featureGroup(
+                {}
+            ).addTo(map_1b07467f690d4e98add8df032b9a490a);
+        
+    
+            var circle_marker_3613c5cf5fb54595a3b46d9a50e18a54 = L.circleMarker(
+                [-10.9853, -37.0733],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e61afbab54b84d19b3d0b1b61f429912);
+        
+    
+            circle_marker_3613c5cf5fb54595a3b46d9a50e18a54.bindTooltip(
+                `<div>
+                     Aracaju, SE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6b12ac992170491798dd7dcc3a0d46ec = L.circleMarker(
+                [-1.3847, -48.4789],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e61afbab54b84d19b3d0b1b61f429912);
+        
+    
+            circle_marker_6b12ac992170491798dd7dcc3a0d46ec.bindTooltip(
+                `<div>
+                     Belém, PA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c3825095012b422eb644719e007c89f2 = L.circleMarker(
+                [-15.8711, -47.9186],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e61afbab54b84d19b3d0b1b61f429912);
+        
+    
+            circle_marker_c3825095012b422eb644719e007c89f2.bindTooltip(
+                `<div>
+                     Brasília, DF
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ced50820f73b4bf7a3b860a4ab8298f8 = L.circleMarker(
+                [2.8414, -60.6922],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e61afbab54b84d19b3d0b1b61f429912);
+        
+    
+            circle_marker_ced50820f73b4bf7a3b860a4ab8298f8.bindTooltip(
+                `<div>
+                     Boa Vista, RR
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_df0a714276114271b7f9a217116477f7 = L.circleMarker(
+                [-19.6244, -43.9719],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e61afbab54b84d19b3d0b1b61f429912);
+        
+    
+            circle_marker_df0a714276114271b7f9a217116477f7.bindTooltip(
+                `<div>
+                     Confins, MG
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2bcbfbe6bb5d485fadb2805e6537e947 = L.circleMarker(
+                [-20.4694, -54.6703],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e61afbab54b84d19b3d0b1b61f429912);
+        
+    
+            circle_marker_2bcbfbe6bb5d485fadb2805e6537e947.bindTooltip(
+                `<div>
+                     Campo Grande, MS
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_cdb7ae1436db436a82c23f73e9f30bf9 = L.circleMarker(
+                [-25.5317, -49.1761],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e61afbab54b84d19b3d0b1b61f429912);
+        
+    
+            circle_marker_cdb7ae1436db436a82c23f73e9f30bf9.bindTooltip(
+                `<div>
+                     São José Dos Pinhais, PR
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1fc4ba68e2144f9ab64c26f087734fd5 = L.circleMarker(
+                [-15.65, -56.1175],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e61afbab54b84d19b3d0b1b61f429912);
+        
+    
+            circle_marker_1fc4ba68e2144f9ab64c26f087734fd5.bindTooltip(
+                `<div>
+                     Várzea Grande, MT
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_14354f6c956d42ed94368f8f5b7b4425 = L.circleMarker(
+                [-3.0411, -60.0506],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e61afbab54b84d19b3d0b1b61f429912);
+        
+    
+            circle_marker_14354f6c956d42ed94368f8f5b7b4425.bindTooltip(
+                `<div>
+                     Manaus, AM
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_110fd9b7f92b43b58eb76e2efba624c3 = L.circleMarker(
+                [-27.6703, -48.5525],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e61afbab54b84d19b3d0b1b61f429912);
+        
+    
+            circle_marker_110fd9b7f92b43b58eb76e2efba624c3.bindTooltip(
+                `<div>
+                     Florianópolis, SC
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_da4034730a1f4ddbab493acb4d263cc9 = L.circleMarker(
+                [-3.7758, -38.5322],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e61afbab54b84d19b3d0b1b61f429912);
+        
+    
+            circle_marker_da4034730a1f4ddbab493acb4d263cc9.bindTooltip(
+                `<div>
+                     Fortaleza, CE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_bb0061a4b0d246d7a3bed8a22174ad0d = L.circleMarker(
+                [-22.81, -43.2506],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e61afbab54b84d19b3d0b1b61f429912);
+        
+    
+            circle_marker_bb0061a4b0d246d7a3bed8a22174ad0d.bindTooltip(
+                `<div>
+                     Rio De Janeiro, RJ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e9fbdb7d6c124771988fa7ddaf304624 = L.circleMarker(
+                [-16.6325, -49.2211],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e61afbab54b84d19b3d0b1b61f429912);
+        
+    
+            circle_marker_e9fbdb7d6c124771988fa7ddaf304624.bindTooltip(
+                `<div>
+                     Goiânia, GO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d1e5bfad6ec94bea928a809b6055f110 = L.circleMarker(
+                [-23.4356, -46.4731],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e61afbab54b84d19b3d0b1b61f429912);
+        
+    
+            circle_marker_d1e5bfad6ec94bea928a809b6055f110.bindTooltip(
+                `<div>
+                     Guarulhos, SP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8412c60a4baf446ca06aca5b1559ba64 = L.circleMarker(
+                [-7.1483, -34.9503],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e61afbab54b84d19b3d0b1b61f429912);
+        
+    
+            circle_marker_8412c60a4baf446ca06aca5b1559ba64.bindTooltip(
+                `<div>
+                     Santa Rita, PB
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7aa827949f5d48b2ac0bba5e3abe83b6 = L.circleMarker(
+                [-23.0069, -47.1344],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e61afbab54b84d19b3d0b1b61f429912);
+        
+    
+            circle_marker_7aa827949f5d48b2ac0bba5e3abe83b6.bindTooltip(
+                `<div>
+                     Campinas, SP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5e71f51ec1734ee282fef1f5fc71e406 = L.circleMarker(
+                [-9.5108, -35.7917],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e61afbab54b84d19b3d0b1b61f429912);
+        
+    
+            circle_marker_5e71f51ec1734ee282fef1f5fc71e406.bindTooltip(
+                `<div>
+                     Rio Largo, AL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e7801b6be5a64d7381f41fbb4aab4393 = L.circleMarker(
+                [0.0508, -51.0703],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e61afbab54b84d19b3d0b1b61f429912);
+        
+    
+            circle_marker_e7801b6be5a64d7381f41fbb4aab4393.bindTooltip(
+                `<div>
+                     Macapá, AP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2caf82562cee4371b074539aba598a46 = L.circleMarker(
+                [-29.9947, -51.1711],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e61afbab54b84d19b3d0b1b61f429912);
+        
+    
+            circle_marker_2caf82562cee4371b074539aba598a46.bindTooltip(
+                `<div>
+                     Porto Alegre, RS
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_893a198aaf2944bc8dd627e5bb673959 = L.circleMarker(
+                [-10.29, -48.3578],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e61afbab54b84d19b3d0b1b61f429912);
+        
+    
+            circle_marker_893a198aaf2944bc8dd627e5bb673959.bindTooltip(
+                `<div>
+                     Palmas, TO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_75e80f2d42e844719b7b8dc29fbeea88 = L.circleMarker(
+                [-10.29, -48.3578],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e61afbab54b84d19b3d0b1b61f429912);
+        
+    
+            circle_marker_75e80f2d42e844719b7b8dc29fbeea88.bindTooltip(
+                `<div>
+                     Palmas, TO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_690200018f834ebb8706377b8e1b6e74 = L.circleMarker(
+                [-8.7136, -63.9028],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e61afbab54b84d19b3d0b1b61f429912);
+        
+    
+            circle_marker_690200018f834ebb8706377b8e1b6e74.bindTooltip(
+                `<div>
+                     Porto Velho, RO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_058b3863197c4c91a3938d7b7e3ba0f0 = L.circleMarker(
+                [-9.8683, -67.8981],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e61afbab54b84d19b3d0b1b61f429912);
+        
+    
+            circle_marker_058b3863197c4c91a3938d7b7e3ba0f0.bindTooltip(
+                `<div>
+                     Rio Branco, AC
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_fc9c9ee3d9804650a9facb6962da02d7 = L.circleMarker(
+                [-8.1264, -34.9228],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e61afbab54b84d19b3d0b1b61f429912);
+        
+    
+            circle_marker_fc9c9ee3d9804650a9facb6962da02d7.bindTooltip(
+                `<div>
+                     Recife, PE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_eeeb5dee3b2c452e81b76a8c72da34db = L.circleMarker(
+                [-22.91, -43.1625],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e61afbab54b84d19b3d0b1b61f429912);
+        
+    
+            circle_marker_eeeb5dee3b2c452e81b76a8c72da34db.bindTooltip(
+                `<div>
+                     Rio De Janeiro, RJ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c6c34a0bd29941d0b39fb315e5032d9f = L.circleMarker(
+                [-5.7689, -35.3664],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e61afbab54b84d19b3d0b1b61f429912);
+        
+    
+            circle_marker_c6c34a0bd29941d0b39fb315e5032d9f.bindTooltip(
+                `<div>
+                     ['Parnamirim' 'São Gonçalo Do Amarante'], RN
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f056f70081f243c790484c1cdb03d164 = L.circleMarker(
+                [-2.5869, -44.2361],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e61afbab54b84d19b3d0b1b61f429912);
+        
+    
+            circle_marker_f056f70081f243c790484c1cdb03d164.bindTooltip(
+                `<div>
+                     São Luís, MA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_93aec60318dd4dc2b5554b1d830778fd = L.circleMarker(
+                [-23.6261, -46.6564],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e61afbab54b84d19b3d0b1b61f429912);
+        
+    
+            circle_marker_93aec60318dd4dc2b5554b1d830778fd.bindTooltip(
+                `<div>
+                     São Paulo, SP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_898b35bf199c432cb3821148528e6499 = L.circleMarker(
+                [-12.9086, -38.3225],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e61afbab54b84d19b3d0b1b61f429912);
+        
+    
+            circle_marker_898b35bf199c432cb3821148528e6499.bindTooltip(
+                `<div>
+                     Salvador, BA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e7fdfc031fe14ef2b7e80897454381f6 = L.circleMarker(
+                [-5.0606, -42.8244],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e61afbab54b84d19b3d0b1b61f429912);
+        
+    
+            circle_marker_e7fdfc031fe14ef2b7e80897454381f6.bindTooltip(
+                `<div>
+                     Teresina, PI
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ed61f3fa2fb9481480de69ef62659db0 = L.circleMarker(
+                [-20.2581, -40.2864],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e61afbab54b84d19b3d0b1b61f429912);
+        
+    
+            circle_marker_ed61f3fa2fb9481480de69ef62659db0.bindTooltip(
+                `<div>
+                     Vitória, ES
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
