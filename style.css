@@ -43,7 +43,7 @@ header > h1 {
 
 .hero-img {
   height: 100vh;
-  background-image: url(/images/vinicius-henrique-photography-R_l-h-JW804-unsplash.jpg);
+  background-image: url(../images/vinicius-henrique-photography-R_l-h-JW804-unsplash.jpg);
   background-repeat: no-repeat;
   background-position: 35% top;
   background-size: cover;
@@ -297,13 +297,13 @@ h4 {
 }
 
 .pattern {
-  background-image: url(/svg/pattern-randomized.svg);
+  background-image: url(../svg/pattern-randomized.svg);
   height: 400px;
   z-index: -1;
 }
 
 .pattern-2 {
-  background-image: url(/svg/graph-paper.svg);
+  background-image: url(../svg/graph-paper.svg);
   height: 800px;
   z-index: -1;
 }
@@ -388,7 +388,7 @@ h4 {
 
 .cluster-img {
   height: 500px;
-  background-image: url(/svg/floating-cogs.svg);
+  background-image: url(../svg/floating-cogs.svg);
 }
 
 .metrics-1 {
@@ -413,7 +413,7 @@ h4 {
 }
 
 .svg-bcg {
-  background-image: url(/svg/side_airplane_05.svg);
+  background-image: url(../svg/side_airplane_05.svg);
   height: 800px;
   background-repeat: no-repeat;
   background-position: center;
@@ -428,7 +428,7 @@ h4 {
   right: 0;
   left: -2000px;
   height: 800px;
-  background-image: url(/svg/side_airplane_05.svg);
+  background-image: url(../svg/side_airplane_05.svg);
   animation: slideRight 25s linear infinite;
 }
 
@@ -443,7 +443,7 @@ h4 {
   height: 20%;
   right: 0;
   left: -2000px;
-  background-image: url(/svg/side_airplane_05.svg);
+  background-image: url(../svg/side_airplane_05.svg);
   background-repeat: repeat-x;
   animation: mountains 10s linear infinite;
 }
@@ -459,7 +459,7 @@ h4 {
   position: relative;
   bottom:0;
   left: 350px;
-  background-image: url(/svg/small_plane.svg);
+  background-image: url(../svg/small_plane.svg);
   background-repeat: repeat-x;
   animation: small-plane 10s linear 3;
 }
