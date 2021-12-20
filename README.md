@@ -40,9 +40,9 @@
 ▫️ 'What is a regional flight?' was the first question and the answer would guide an in depth analysis on the
 Brazilian market.
 
-▫️  Apply machine learning to discover clusters and group airports by international recognized metrics.
+▫️ Apply machine learning to discover clusters and group airports by international recognized metrics.
 
-▫️  'Who are the airline players in the regional market?'
+▫️ 'Who are the airline players in the regional market?'
 
 ```
 
@@ -68,7 +68,7 @@ And I asked myself: "are those the regional flights"? After some research I foun
 
 ## Machine Learning
 
-- Metrics:
+#### Metrics:
 
 * Available Seat Kilometres (ASK) – A measure of an airline’s carrying capacity to generate revenue, taken from multiplying the available seats on an aircraft by the number of kilometres flown on a given flight.
 
@@ -122,7 +122,7 @@ And I asked myself: "are those the regional flights"? After some research I foun
 
 ## Data source
 
-1. ANAC
+1. The data from all flights from 2002 up to this days can be found under [this link](https://www.gov.br/anac/pt-br/assuntos/dados-e-estatisticas), made available from the Brazilian civil aviation authority – also known as ANAC. 
 
 <br>
 
