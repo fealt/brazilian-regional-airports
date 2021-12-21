@@ -60,6 +60,12 @@ And I asked myself: "are those the regional flights"? After some research I foun
 
 ![img](/images/regional_airport_wordcloud.png)
 
+### How to classify an airport as regional?
+
+- flights within the same state, excluding those with departure from a capital city or other major airport hubs
+
+- flights from one state to another, excluding capital cities and other major airport hubs
+
 <br>
 
 <br>
@@ -68,11 +74,17 @@ And I asked myself: "are those the regional flights"? After some research I foun
 
 ## Machine Learning
 
+Applying machine learning with cluster analysis to discover natural grouping in data.
+
 #### Metrics:
 
 * Available Seat Kilometres (ASK) – A measure of an airline’s carrying capacity to generate revenue, taken from multiplying the available seats on an aircraft by the number of kilometres flown on a given flight.
 
 * Revenue Passenger Kilometres (RPK) – A way of calculating the number of kilometres travelled by paying customers, by multiplying the number of paying passengers by the distance travelled.
+
+![img](/images/clusters_2021.png)
+
+[click here to see Tableau viz with clusters animated from 2002 to 2021](https://public.tableau.com/app/profile/altermann/viz/clusters_16392451646750/Dashboard1)
 
 <br>
 
