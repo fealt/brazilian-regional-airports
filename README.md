@@ -18,6 +18,14 @@
 
 <br>
 
+> ⏰ <i>Time's short?</i>
+>
+> 👉 [Click here to check my presentation](https://fealt.github.io/brazilian-regional-flights/), hosted by GitHub Pages ♡
+
+<br>
+
+<br>
+
 ## Project Documentation
 - [Project Main Objectives](#project-main-objectives)
 - [Project Description](#project-description)
@@ -37,10 +45,11 @@
 
 ```
 
-▫️ 'What is a regional flight?' was the first question and the answer would guide an in depth analysis on the
-Brazilian market.
+▫️ 'What is a regional flight?' was the first question and the answer would guide an in depth
+analysis on the Brazilian market.
 
-▫️ Apply machine learning to discover clusters and group airports by international recognized metrics.
+▫️ Apply machine learning to discover clusters and group airports by international recognized
+metrics.
 
 ▫️ 'Who are the airline players in the regional market?'
 
