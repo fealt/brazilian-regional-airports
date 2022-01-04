@@ -20,7 +20,7 @@
 
 > ⏰ <i>Time's short?</i>
 >
-> 👉 [Click here to check my presentation](https://fealt.github.io/brazilian-regional-flights/), hosted by GitHub Pages ♡
+> 👉 [Click here to check my presentation](https://fealt.github.io/brazilian-regional-airports/), hosted by GitHub Pages ♡
 
 <br>
 
